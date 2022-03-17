@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/drawable/ic_default_image.xml" value="0.194" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/drawable/ic_home.xml" value="0.194" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/activity_basket.xml" value="0.19114583333333332" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/activity_detail.xml" value="0.22135416666666666" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/activity_favourite.xml" value="0.2328125" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/fragment_explore.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/layout/track_item.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/ProductListApp/app/src/main/res/menu/bottom_menu.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_default_image.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_favourite_chosen.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_favourite_not_chosen.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_home.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_moon.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_profile.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_search.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/ic_sun.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/image_not_supported.xml" value="0.139" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/info_icon.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/money.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/drawable/sunny.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/activity_about_developer_fragment.xml" value="0.1265625" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/activity_basket.xml" value="0.2" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/activity_detail.xml" value="0.16" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/activity_favourite.xml" value="0.1265625" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/fragment_about_developer.xml" value="0.1" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/fragment_explore.xml" value="0.1265625" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/list_record.xml" value="0.4" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/layout/track_item.xml" value="0.4" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/menu/bottom_menu.xml" value="0.1265625" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/menu/menu.xml" value="0.536" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/ProductListMobileApp-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.137" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/mobilki2laba/app/src/main/res/layout/activity_favourite.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/mobilki2laba/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/37529/AndroidStudioProjects/mobilki2laba/app/src/main/res/layout/fragment_explore.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
