@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -18,17 +17,13 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-import by.bsuir.mobilki2laba.R;
-
 public class SongAdapter extends ArrayAdapter<Song> {
 
     ImageView songImage;
     TextView songName;
     TextView albumName;
-    Button isFavourite;
     TextView songPrice;
     TextView currency;
-    Button addToCart;
 
 
     public SongAdapter(@NonNull Context context, int resource, @NonNull List<Song> songsList) {

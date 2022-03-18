@@ -1,19 +1,15 @@
 package by.bsuir.mobilki2laba;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
-
-import by.bsuir.mobilki2laba.R;
 
 
 public class HomeFragment extends Fragment {
@@ -24,9 +20,6 @@ public class HomeFragment extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     private ListView songsListView;
-
-    public static Button nirvanaButton;
-    public static Button grobButton;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -67,26 +60,6 @@ public class HomeFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         if (MainActivity.isNetworkAvailable()) MainActivity.songImageDownloader.clearQueue();
-    }
-
-    public static void quickFixFilterButtonsText(){
-        nirvanaButton.setText("Nirvana (" + MainActivity.NIRVANA_SONGS_COUNT + ")");
-        grobButton.setText("GrOb (" + MainActivity.GROB_SONGS_COUNT + ")");
-    }
-
-    public static void handleFilterButtons() {
-        if (MainActivity.nirvanaIsSelectedFilter) {
-            nirvanaButton.setBackgroundColor(Color.GREEN);
-            grobButton.setBackgroundColor(Color.WHITE);
-        } else {
-            nirvanaButton.setBackgroundColor(Color.WHITE);
-            grobButton.setBackgroundColor(Color.GREEN);
-        }
-        nirvanaButton.setTextColor(Color.BLACK);
-        grobButton.setTextColor(Color.BLACK);
-
-        nirvanaButton.setText("Nirvana (" + MainActivity.NIRVANA_SONGS_COUNT + ")");
-        grobButton.setText("GrOb (" + MainActivity.GROB_SONGS_COUNT + ")");
     }
 
     @Override

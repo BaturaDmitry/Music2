@@ -41,14 +41,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Locale;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import by.bsuir.mobilki2laba.R;
 import kaaes.spotify.webapi.android.SpotifyApi;
 import kaaes.spotify.webapi.android.SpotifyService;
 import kaaes.spotify.webapi.android.models.Image;
@@ -80,9 +78,6 @@ public class MainActivity extends AppCompatActivity {
     public static Bitmap userProfileBitmap = null;
 
     public static final String SPOTIFY_USER_ID = "31u6nwltsgearrymfr5zsicbyty4";
-  //  public static final String SPOTIFY_GLOBAL_TOP50 = "37i9dQZEVXbMDoHDwVN2tF";
-   // public static final String SPOTIFY_GROB_PLAYLIST = "6UZaOdd7TOy33Xhl3NcJFn";
-    //private SpotifyAppRemote mSpotifyAppRemote;
     public static final String SPOTIFY_GLOBAL_TOP50 = "37i9dQZEVXbMDoHDwVN2tF";
     public static double GLOBAL_CURRENCY_COEFF = 1.0;
 
@@ -96,11 +91,6 @@ public class MainActivity extends AppCompatActivity {
     public static SongImageDownloader<SongAdapter.SongCoverHolder> songImageDownloader;
     public static boolean IS_USD = true;
 
-
-    public static boolean nirvanaIsSelectedFilter = true;
-
-    public static long NIRVANA_SONGS_COUNT = 0;
-    public static long GROB_SONGS_COUNT = 0;
 
     public static SongCoverImageLRUCache lru = new SongCoverImageLRUCache(1024*1024/8);
 
@@ -276,12 +266,10 @@ public class MainActivity extends AppCompatActivity {
                 null, null,
                 null, null);
 
-        //ВНИМАНИЕ! КОСТЫЛЬ
+
         songsList.clear();
-        NIRVANA_SONGS_COUNT = 0;
-        GROB_SONGS_COUNT = 0;
         FavouriteActivity.favouriteList.clear();
-        //ВНИМАНИЕ! КОСТЫЛЬ
+
         if (cursor.moveToFirst()) {
             int idInd = cursor.getColumnIndex(DatabaseHelper.KEY_id);
             int nameInd = cursor.getColumnIndex(DatabaseHelper.KEY_name);
@@ -310,11 +298,6 @@ public class MainActivity extends AppCompatActivity {
                         cursor.getString(webviewidInd)
                 ));
 
-                if (cursor.getString(artistInd).toLowerCase(Locale.ROOT).contains("nirvana")){
-                    NIRVANA_SONGS_COUNT++;
-                } else{
-                    GROB_SONGS_COUNT++;
-                }
 
                 if (cursor.getInt(isFavouriteInd) == 1){
                     FavouriteActivity.addFavouriteSong(songsList.get(songsList.size() - 1));
