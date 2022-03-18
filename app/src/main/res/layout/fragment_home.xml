@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="by.bsuir.mobilki2laba.HomeFragment">
+    tools:context="by.bsuir.productlistapp.by.bsuir.productlistapp.HomeFragment">
 
     <TextView
         android:id="@+id/warningTextView"

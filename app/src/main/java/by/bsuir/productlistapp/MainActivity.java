@@ -1,4 +1,4 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -47,6 +47,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import by.bsuir.productlistapp.R;
 import kaaes.spotify.webapi.android.SpotifyApi;
 import kaaes.spotify.webapi.android.SpotifyService;
 import kaaes.spotify.webapi.android.models.Image;

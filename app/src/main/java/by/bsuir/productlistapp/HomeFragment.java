@@ -1,4 +1,4 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import android.content.Intent;
 import android.os.Bundle;

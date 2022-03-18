@@ -1,6 +1,6 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
-import static by.bsuir.mobilki2laba.MainActivity.dbHelper;
+import static by.bsuir.productlistapp.MainActivity.dbHelper;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-import by.bsuir.mobilki2laba.R;
+import by.bsuir.productlistapp.R;
 
 public class FavouriteActivity extends AppCompatActivity {
     public static void updateSongFavouriteness(int id, boolean isFav){

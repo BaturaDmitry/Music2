@@ -1,7 +1,6 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import android.graphics.drawable.Drawable;
-import android.util.Log;
 import android.util.LruCache;
 
 public class SongCoverImageLRUCache extends LruCache<String, Drawable> {

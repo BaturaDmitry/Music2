@@ -1,7 +1,7 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
-import static by.bsuir.mobilki2laba.MainActivity.GLOBAL_CURRENCY_BYN;
-import static by.bsuir.mobilki2laba.MainActivity.GLOBAL_CURRENCY_USD;
+import static by.bsuir.productlistapp.MainActivity.GLOBAL_CURRENCY_BYN;
+import static by.bsuir.productlistapp.MainActivity.GLOBAL_CURRENCY_USD;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -30,7 +30,6 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -40,8 +39,6 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 
 import java.util.Objects;
-
-import by.bsuir.mobilki2laba.R;
 
 public class ProfileFragment extends Fragment {
 
@@ -84,7 +81,6 @@ public class ProfileFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
         setHasOptionsMenu(true);
-
     }
 
     @Override
@@ -112,8 +108,7 @@ public class ProfileFragment extends Fragment {
 
 
     public static void getCurrentLocation() {
-        @SuppressLint("MissingPermission")
-        Task<Location> task = client.getLastLocation();
+        @SuppressLint("MissingPermission") Task<Location> task = client.getLastLocation();
         task.addOnSuccessListener(new OnSuccessListener<Location>() {
             @Override
             public void onSuccess(Location location) {
@@ -123,10 +118,10 @@ public class ProfileFragment extends Fragment {
                         public void onMapReady(@NonNull GoogleMap googleMap) {
 
                             LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
-                            MarkerOptions options = new MarkerOptions().position(latLng);
-                            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10));
+                            MarkerOptions options = new MarkerOptions().position(latLng).title("I'm right here!");
+                            //googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10));
 
-                            Objects.requireNonNull(googleMap.addMarker(options));
+                            Objects.requireNonNull(googleMap.addMarker(options)).showInfoWindow();
                         }
                     });
                 }
@@ -225,6 +220,7 @@ public class ProfileFragment extends Fragment {
 
         if (MainActivity.isNetworkAvailable()) {
             client = LocationServices.getFusedLocationProviderClient(MainActivity.mainActivityContext);
+            getCurrentLocation();
             if (ActivityCompat.checkSelfPermission(MainActivity.mainActivityContext, Manifest.permission.ACCESS_FINE_LOCATION)
                     == PackageManager.PERMISSION_GRANTED) {
                 getCurrentLocation();

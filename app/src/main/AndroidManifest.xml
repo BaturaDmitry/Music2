@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="by.bsuir.mobilki2laba" >
+    package="by.bsuir.productlistapp" >
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -16,16 +16,16 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.ProductListApp" >
         <activity
-            android:name="by.bsuir.mobilki2laba.FavouriteActivity"
+            android:name="by.bsuir.productlistapp.FavouriteActivity"
             android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAUsyUOZ9xL_550nSU6tKd7cqHFNpC36fE" />
 
-        <activity android:name="by.bsuir.mobilki2laba.DetailActivity" />
+        <activity android:name="by.bsuir.productlistapp.DetailActivity" />
         <activity
-            android:name="by.bsuir.mobilki2laba.MainActivity"
+            android:name="by.bsuir.productlistapp.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

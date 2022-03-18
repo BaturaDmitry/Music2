@@ -1,6 +1,6 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
-import static by.bsuir.mobilki2laba.MainActivity.dbHelper;
+import static by.bsuir.productlistapp.MainActivity.dbHelper;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;

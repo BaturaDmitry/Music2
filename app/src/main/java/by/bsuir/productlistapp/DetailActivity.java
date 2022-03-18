@@ -1,4 +1,4 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -24,7 +24,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import by.bsuir.mobilki2laba.R;
+import by.bsuir.productlistapp.R;
 
 public class DetailActivity extends AppCompatActivity {
     private Button btnFavourite;

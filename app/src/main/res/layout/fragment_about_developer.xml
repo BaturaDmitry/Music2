@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="by.bsuir.mobilki2laba.AboutDeveloperFragment">
+    tools:context="by.bsuir.productlistapp.by.bsuir.productlistapp.AboutDeveloperFragment">
 
     <TextView
         android:id="@+id/textView"

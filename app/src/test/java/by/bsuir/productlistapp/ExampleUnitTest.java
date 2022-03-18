@@ -1,4 +1,4 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;

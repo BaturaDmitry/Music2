@@ -1,4 +1,4 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,6 +16,8 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 import java.util.Locale;
+
+import by.bsuir.productlistapp.R;
 
 public class ExploreFragment extends Fragment {
 

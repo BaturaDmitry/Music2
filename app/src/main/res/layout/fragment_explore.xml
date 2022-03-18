@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="by.bsuir.mobilki2laba.ExploreFragment">
+    tools:context="by.bsuir.productlistapp.by.bsuir.productlistapp.ExploreFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,7 +67,7 @@
             android:layout_width="187dp"
             android:layout_height="71dp"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/secondPrice"
@@ -75,7 +75,7 @@
             android:layout_height="71dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
     </LinearLayout>
 

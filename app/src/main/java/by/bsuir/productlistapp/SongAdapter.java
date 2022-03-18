@@ -1,6 +1,6 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
-import static by.bsuir.mobilki2laba.MainActivity.lru;
+import static by.bsuir.productlistapp.MainActivity.lru;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,6 +16,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.util.List;
+
+import by.bsuir.productlistapp.R;
 
 public class SongAdapter extends ArrayAdapter<Song> {
 

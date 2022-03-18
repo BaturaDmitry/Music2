@@ -1,13 +1,10 @@
-package by.bsuir.mobilki2laba;
+package by.bsuir.productlistapp;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.graphics.Bitmap;
 
 import androidx.annotation.Nullable;
-
-import java.util.ArrayList;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 

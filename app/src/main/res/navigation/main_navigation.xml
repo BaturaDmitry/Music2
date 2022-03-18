@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="by.bsuir.mobilki2laba.HomeFragment"
+        android:name="by.bsuir.productlistapp.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/exploreFragment"
-        android:name="by.bsuir.mobilki2laba.ExploreFragment"
+        android:name="by.bsuir.productlistapp.ExploreFragment"
         android:label="fragment_explore"
         tools:layout="@layout/fragment_explore" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="by.bsuir.mobilki2laba.ProfileFragment"
+        android:name="by.bsuir.productlistapp.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/aboutDeveloperFragment"
-        android:name="by.bsuir.mobilki2laba.AboutDeveloperFragment"
+        android:name="by.bsuir.productlistapp.AboutDeveloperFragment"
         android:label="fragment_about_developer"
         tools:layout="@layout/fragment_about_developer" />
 </navigation>
